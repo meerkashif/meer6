@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: aqua;
+}
+header{
+    background-color: brown;
+ display: flex;
+ justify-content: center;
+
+}
+h1{
+    color: blue;
+    font-size: 50px;
+}
+h2{
+    color: blueviolet;
+    font-size: 30px;
+
+}
+li{
+    list-style-type:none;
+    background-color: chartreuse;
+    padding:30px;
+    border-radius: 18px;
+}
+ .bestseller{ 
+    background-color: chocolate;
+
+border-radius: 18px;
+font-weight: bold;
+color:blueviolet
+}
+
+#fiction{
+     background-color:crimson;
+    padding:30px;
+    border-radius:15px;
+}
+#non-fiction{
+    background-color:rgb(18, 91, 139);
+   padding:20px;
+   border-radius:10px;
+}
+footer{
+    display: flex;
+ justify-content: center;
+font-style: italic;
+}
+.student-name{
+    font-weight: bold;
+    color:blueviolet
+}
